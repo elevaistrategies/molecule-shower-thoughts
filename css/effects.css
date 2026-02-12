@@ -1,0 +1,133 @@
+/* effects.css — background motion, orbs, reactor, floaters */
+.fx{
+  position:fixed;
+  inset:0;
+  z-index:0;
+  pointer-events:none;
+  overflow:hidden;
+}
+
+.fx__grid{
+  position:absolute;
+  inset:-2px;
+  background:
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 52px 52px;
+  opacity: 0.10;
+  transform: perspective(900px) rotateX(58deg) translateY(-120px);
+  filter: blur(0.3px);
+  mask-image: radial-gradient(circle at 50% 30%, black 0%, rgba(0,0,0,0.6) 55%, transparent 75%);
+}
+[data-theme="light"] .fx__grid{ opacity: 0.06; }
+
+.fx__orbs .orb{
+  position:absolute;
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  filter: blur(32px);
+  opacity: 0.18;
+  mix-blend-mode: screen;
+  animation: drift 14s ease-in-out infinite;
+}
+.orb.o1{ left:-120px; top: 10%; background: radial-gradient(circle at 30% 30%, var(--a1), transparent 62%); animation-duration: 18s; }
+.orb.o2{ right:-160px; top: 4%; background: radial-gradient(circle at 30% 30%, var(--a2), transparent 62%); animation-duration: 16s; }
+.orb.o3{ left: 18%; bottom:-210px; background: radial-gradient(circle at 30% 30%, var(--a3), transparent 62%); animation-duration: 20s; }
+.orb.o4{ right: 12%; bottom:-240px; background: radial-gradient(circle at 30% 30%, var(--a4), transparent 62%); animation-duration: 19s; }
+.orb.o5{ left: 52%; top: 46%; width: 520px; height: 520px; background: radial-gradient(circle at 30% 30%, var(--a5), transparent 62%); animation-duration: 22s; opacity: 0.14; }
+
+@keyframes drift{
+  0%{ transform: translate3d(0,0,0) scale(1); }
+  50%{ transform: translate3d(30px,-18px,0) scale(1.06); }
+  100%{ transform: translate3d(0,0,0) scale(1); }
+}
+
+.fx__reactor{
+  position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  opacity: 0.65;
+  filter: drop-shadow(0 0 24px rgba(6,182,212,0.12));
+}
+
+.reactor{
+  position:relative;
+  width: 620px;
+  height: 620px;
+  border-radius: 50%;
+  transform: translateY(-30px);
+  opacity: 0.55;
+}
+@media (max-width: 920px){
+  .reactor{ width: 520px; height: 520px; transform: translateY(-60px); opacity: 0.50; }
+}
+@media (max-width: 520px){
+  .reactor{ width: 420px; height: 420px; transform: translateY(-70px); opacity: 0.48; }
+}
+
+.ring{
+  position:absolute;
+  inset:0;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.10);
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.03) inset,
+    0 0 24px rgba(124,58,237,0.10),
+    0 0 34px rgba(6,182,212,0.08);
+  background: radial-gradient(circle at 30% 30%, rgba(124,58,237,0.08), transparent 55%),
+              radial-gradient(circle at 70% 60%, rgba(6,182,212,0.06), transparent 55%);
+  filter: blur(0.0px);
+}
+
+.r1{ transform: scale(0.86); animation: ringWobble 7.5s ease-in-out infinite; }
+.r2{ transform: scale(0.72); animation: ringWobble 6.4s ease-in-out infinite reverse; opacity: 0.9; }
+.r3{ transform: scale(0.56); animation: ringWobble 5.2s ease-in-out infinite; opacity: 0.85; }
+.r4{ transform: scale(0.40); animation: ringWobble 4.6s ease-in-out infinite reverse; opacity: 0.80; }
+
+@keyframes ringWobble{
+  0%{ filter: hue-rotate(0deg); transform: translate3d(0,0,0) scale(var(--s,1)); }
+  50%{ filter: hue-rotate(40deg); transform: translate3d(0,-6px,0) scale(calc(var(--s,1) + 0.005)); }
+  100%{ filter: hue-rotate(0deg); transform: translate3d(0,0,0) scale(var(--s,1)); }
+}
+.r1{ --s:0.86; }
+.r2{ --s:0.72; }
+.r3{ --s:0.56; }
+.r4{ --s:0.40; }
+
+.core{
+  position:absolute;
+  inset: 42%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 40% 30%, rgba(255,255,255,0.20), rgba(255,255,255,0.03) 55%, transparent 72%),
+    radial-gradient(circle at 55% 60%, rgba(6,182,212,0.18), transparent 60%),
+    radial-gradient(circle at 40% 55%, rgba(124,58,237,0.16), transparent 60%);
+  box-shadow: 0 0 28px rgba(6,182,212,0.12), 0 0 50px rgba(124,58,237,0.10);
+  animation: pulse 3.6s ease-in-out infinite;
+}
+@keyframes pulse{
+  0%,100%{ transform: scale(1); opacity: 0.85; }
+  50%{ transform: scale(1.08); opacity: 1; }
+}
+
+.fx__floaters{
+  position:absolute;
+  inset:0;
+  opacity: 0.85;
+}
+
+.floater{
+  position:absolute;
+  font-size: 18px;
+  filter: drop-shadow(0 0 12px rgba(6,182,212,0.18));
+  opacity: 0.0;
+  animation: floatUp linear forwards;
+}
+@keyframes floatUp{
+  0%{ transform: translate3d(0, 20px, 0) rotate(0deg); opacity: 0; }
+  10%{ opacity: 0.8; }
+  85%{ opacity: 0.65; }
+  100%{ transform: translate3d(0, -140px, 0) rotate(18deg); opacity: 0; }
+}
