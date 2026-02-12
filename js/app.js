@@ -5,12 +5,15 @@ import { setTheme, renderCategories, renderVibes, renderThought, renderSaved, sp
 
 const $ = (id) => document.getElementById(id);
 
+const prefersReducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
 const floatersEmoji = ["🚿","🫧","💡","🧠","🧬","✨","🌈","🪞","🤖","⚡","🧪","🌪️","🌙","🔥","🌀"];
 
 function rand(min, max){ return Math.random() * (max - min) + min; }
 function pick(arr){ return arr[Math.floor(Math.random() * arr.length)]; }
 
 function spawnFloater() {
+  if (prefersReducedMotion) return;
   const host = $("floaters");
   if (!host) return;
   const el = document.createElement("span");
@@ -45,6 +48,7 @@ function shufflePalette() {
 async function main(){
   let state = loadState();
   setTheme(state.theme);
+  document.documentElement.dataset.reduceMotion = prefersReducedMotion ? "true" : "false";
 
   // UI refs
   const categoryPills = $("categoryPills");
@@ -87,7 +91,7 @@ async function main(){
 
   // Floater loop
   shufflePalette();
-  const floaterTimer = setInterval(spawnFloater, 650);
+  setInterval(spawnFloater, prefersReducedMotion ? 2400 : 650);
 
   // Thought state
   let current = null;
@@ -105,6 +109,8 @@ async function main(){
     });
     current = thought;
     renderThought({ thought, categoryKey: state.categoryKey, vibeKey: state.vibeKey, spiceLevel: state.spiceLevel });
+    const card = $("thoughtCard");
+    if (card){ card.classList.remove("thought--pop"); void card.offsetWidth; card.classList.add("thought--pop"); }
     setActionEnabled(true);
     pulseVisuals();
   }
