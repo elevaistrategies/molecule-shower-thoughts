@@ -1,44 +1,158 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Molecule</title>
-  <style>
-    body{margin:0;font-family:system-ui,-apple-system,BlinkMacSystemFont,sans-serif;background:#0b0f14;color:#e6e8eb}
-    header{max-width:900px;margin:0 auto;padding:2.5rem 1.5rem 1rem}
-    h1{margin:0 0 .5rem;font-size:2.1rem}
-    p{margin:.25rem 0 0;color:#9aa4b2;max-width:720px}
-    main{max-width:900px;margin:0 auto;padding:1.5rem}
-    .card{background:#121824;border:1px solid #1e2633;border-radius:14px;padding:1.25rem}
-    .btn{display:inline-block;margin-top:1rem;padding:.75rem 1rem;border-radius:10px;background:#7dd3fc;color:#0b0f14;font-weight:800;border:none;cursor:pointer;text-decoration:none}
-    .muted{color:#9aa4b2;font-size:.9rem}
-    footer{max-width:900px;margin:0 auto;padding:2rem 1.5rem 3rem;color:#6b7280;font-size:.85rem}
-    a{color:#7dd3fc;text-decoration:none;font-weight:700}
-  </style>
+  <title>Shower Thoughts • ElevAI Labs</title>
+  <meta name="description" content="A dynamic shower-thought generator from ElevAI Labs. Tap Generate for relevant, weird, and oddly true thoughts." />
+  <meta name="theme-color" content="#0a0b10" />
+  <link rel="icon" href="assets/icons/favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/effects.css" />
 </head>
-<body>
-  <header>
-    <h1 id="title">Molecule Name</h1>
-    <p id="subtitle">One-line description goes here.</p>
-  </header>
 
-  <main>
-    <div class="card">
-      <div class="muted">Replace this card with your app UI.</div>
-      <button class="btn" id="action">Do thing</button>
-      <div id="output" class="muted" style="margin-top:1rem;"></div>
+<body>
+  <!-- Ambient FX layer -->
+  <div class="fx" aria-hidden="true">
+    <div class="fx__grid"></div>
+    <div class="fx__orbs">
+      <span class="orb o1"></span>
+      <span class="orb o2"></span>
+      <span class="orb o3"></span>
+      <span class="orb o4"></span>
+      <span class="orb o5"></span>
     </div>
+    <div class="fx__reactor">
+      <div class="reactor">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="ring r3"></div>
+        <div class="ring r4"></div>
+        <div class="core"></div>
+      </div>
+    </div>
+    <div class="fx__floaters" id="floaters"></div>
+  </div>
+
+  <main class="shell">
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand__mark" aria-hidden="true">🧪</div>
+        <div class="brand__text">
+          <div class="brand__title">ElevAI Labs</div>
+          <div class="brand__sub">Molecule: <span class="mono">Shower Thoughts</span></div>
+        </div>
+      </div>
+
+      <div class="topbar__actions">
+        <button class="chip chip--ghost" id="btnTheme" type="button" title="Toggle theme">
+          <span class="chip__icon" aria-hidden="true">🌗</span>
+          <span class="chip__label">Theme</span>
+        </button>
+        <a class="chip chip--ghost" href="https://elevaistrategies.com/labs" target="_blank" rel="noreferrer">
+          <span class="chip__icon" aria-hidden="true">🧬</span>
+          <span class="chip__label">Labs</span>
+        </a>
+      </div>
+    </header>
+
+    <section class="card hero" aria-label="Shower thought generator">
+      <div class="hero__left">
+        <h1 class="hero__title">
+          Shower Thoughts
+          <span class="hero__spark">🚿</span>
+        </h1>
+        <p class="hero__desc">
+          Tap <strong>Generate</strong> for thoughts that feel random… until they bully your brain into agreeing.
+        </p>
+
+        <div class="controls">
+          <div class="controls__row">
+            <div class="control">
+              <div class="control__label">Category</div>
+              <div class="pillbox" id="categoryPills" role="listbox" aria-label="Choose category"></div>
+            </div>
+          </div>
+
+          <div class="controls__row controls__row--split">
+            <div class="control">
+              <div class="control__label">Vibe</div>
+              <div class="segmented" role="tablist" aria-label="Choose vibe" id="vibeTabs">
+                <!-- filled by JS -->
+              </div>
+            </div>
+
+            <div class="control">
+              <div class="control__label">Spice</div>
+              <label class="slider">
+                <span class="slider__meta" id="spiceLabel">Medium</span>
+                <input id="spice" type="range" min="1" max="5" value="3" step="1" aria-label="Spice level" />
+              </label>
+            </div>
+          </div>
+
+          <div class="controls__row controls__row--buttons">
+            <button class="btn btn--primary" id="btnGenerate" type="button">
+              <span class="btn__icon" aria-hidden="true">⚡</span>
+              <span>Generate</span>
+            </button>
+            <button class="btn btn--soft" id="btnCopy" type="button" disabled>
+              <span class="btn__icon" aria-hidden="true">📋</span>
+              <span>Copy</span>
+            </button>
+            <button class="btn btn--soft" id="btnFav" type="button" disabled>
+              <span class="btn__icon" aria-hidden="true">💾</span>
+              <span>Save</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__right">
+        <div class="thought" id="thoughtCard" aria-live="polite">
+          <div class="thought__top">
+            <div class="badge" id="thoughtMeta">Ready • 🚿</div>
+            <div class="thought__tools">
+              <button class="iconbtn" id="btnShuffle" type="button" title="Shuffle visuals">
+                🎲
+              </button>
+            </div>
+          </div>
+          <div class="thought__text" id="thoughtText">
+            Hit <strong>Generate</strong> and let the universe whisper nonsense with confidence.
+          </div>
+          <div class="thought__bottom">
+            <div class="mini" id="thoughtTags">—</div>
+            <div class="mini mono" id="thoughtId">st_init</div>
+          </div>
+        </div>
+
+        <div class="miniPanel">
+          <div class="miniPanel__title">Saved thoughts</div>
+          <div class="miniPanel__body" id="savedList">
+            <div class="mini muted">None yet. Save your first brain-spark. 💡</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__left">
+        <span class="mono">v0.1</span> • built for GitHub Pages •
+        <span class="muted">data JSON comes next</span>
+      </div>
+      <div class="footer__right">
+        <button class="chip chip--tiny" id="btnClearSaved" type="button" title="Clear saved">
+          🧹 Clear
+        </button>
+      </div>
+    </footer>
   </main>
 
-  <footer>
-    Built as a molecule in <a href="https://elevaistrategies.github.io/labs/" target="_blank" rel="noopener">ElevAI Labs</a>
-  </footer>
-
-  <script>
-    document.getElementById("action").addEventListener("click", () => {
-      document.getElementById("output").textContent = "✅ It works. Now make it useful.";
-    });
-  </script>
+  <script type="module" src="js/app.js"></script>
 </body>
 </html>
