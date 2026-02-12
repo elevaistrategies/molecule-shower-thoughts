@@ -1,0 +1,91 @@
+/* base.css — foundations, tokens, layout */
+:root{
+  --bg: #070812;
+  --bg2:#0a0b10;
+  --card: rgba(12, 14, 24, 0.72);
+  --card2: rgba(14, 18, 32, 0.62);
+  --text: rgba(248, 250, 255, 0.92);
+  --muted: rgba(248, 250, 255, 0.62);
+  --faint: rgba(248, 250, 255, 0.38);
+  --stroke: rgba(255,255,255,0.10);
+  --stroke2: rgba(255,255,255,0.16);
+
+  /* Neon accents (dynamic via JS) */
+  --a1: #7c3aed; /* violet */
+  --a2: #06b6d4; /* cyan */
+  --a3: #22c55e; /* green */
+  --a4: #f97316; /* orange */
+  --a5: #e11d48; /* rose */
+
+  --glow: 0 0 24px rgba(124, 58, 237, 0.25), 0 0 56px rgba(6, 182, 212, 0.15);
+  --shadow: 0 12px 60px rgba(0,0,0,0.55);
+
+  --r: 18px;
+  --r2: 24px;
+
+  --font: "Space Grotesk", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+[data-theme="light"]{
+  --bg: #f6f8ff;
+  --bg2:#eef3ff;
+  --card: rgba(255,255,255,0.72);
+  --card2: rgba(255,255,255,0.62);
+  --text: rgba(15, 18, 28, 0.92);
+  --muted: rgba(15, 18, 28, 0.62);
+  --faint: rgba(15, 18, 28, 0.38);
+  --stroke: rgba(0,0,0,0.10);
+  --stroke2: rgba(0,0,0,0.16);
+  --shadow: 0 18px 60px rgba(18, 24, 40, 0.16);
+}
+
+*{ box-sizing:border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family:var(--font);
+  color:var(--text);
+  background: radial-gradient(1200px 800px at 20% 15%, rgba(124,58,237,0.18), transparent 55%),
+              radial-gradient(1100px 700px at 80% 20%, rgba(6,182,212,0.14), transparent 55%),
+              radial-gradient(1000px 700px at 30% 80%, rgba(34,197,94,0.10), transparent 55%),
+              linear-gradient(180deg, var(--bg), var(--bg2));
+  overflow-x:hidden;
+}
+
+a{ color:inherit; text-decoration:none; }
+strong{ font-weight:700; }
+.mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+.muted{ color:var(--muted); }
+.faint{ color:var(--faint); }
+
+.shell{
+  position:relative;
+  z-index:2;
+  width:min(1100px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 26px 0 40px;
+}
+
+.card{
+  border-radius: var(--r2);
+  background: linear-gradient(180deg, var(--card), var(--card2));
+  border:1px solid var(--stroke);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+.footer{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  margin-top:16px;
+  padding: 10px 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 920px){
+  .shell{ width: calc(100% - 26px); }
+}
