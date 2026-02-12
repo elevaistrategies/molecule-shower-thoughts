@@ -131,3 +131,10 @@
   85%{ opacity: 0.65; }
   100%{ transform: translate3d(0, -140px, 0) rotate(18deg); opacity: 0; }
 }
+
+/* Reduced motion mode (set by JS) */
+[data-reduce-motion="true"] .fx__orbs .orb{ animation: none !important; opacity: 0.10; }
+[data-reduce-motion="true"] .ring{ animation: none !important; }
+[data-reduce-motion="true"] .core{ animation: none !important; opacity: 0.75; }
+[data-reduce-motion="true"] .thought::after{ animation: none !important; opacity: 0.55; }
+[data-reduce-motion="true"] .floater{ display:none !important; }
