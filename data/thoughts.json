@@ -1,1 +1,315 @@
-
+[
+  {
+    "id": "st_0001",
+    "text": "If water had flavor, hydration would win every argument.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0002",
+    "text": "Your inner voice has never heard itself out loud.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0003",
+    "text": "Every mirror is a live broadcast of your current storyline.",
+    "category": [
+      "meta",
+      "life"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0004",
+    "text": "We measure success in numbers but feel it in silence.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0005",
+    "text": "Your future self is watching you like a documentary.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0006",
+    "text": "Notifications are just tiny digital doorbells for your attention.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "medium",
+    "spice": 3
+  },
+  {
+    "id": "st_0007",
+    "text": "If procrastination burned calories, we'd all be shredded.",
+    "category": [
+      "funny",
+      "life"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0008",
+    "text": "The brain can simulate embarrassment without any witnesses.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "medium",
+    "spice": 4
+  },
+  {
+    "id": "st_0009",
+    "text": "A playlist is just a mood you organized.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0010",
+    "text": "Time doesn't fly. It just refuses to wait.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0011",
+    "text": "Confidence is memory edited for courage.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0012",
+    "text": "Even GPS says recalculating without shame.",
+    "category": [
+      "tech",
+      "funny"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0013",
+    "text": "The shower is a brainstorming chamber with steam effects.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "calm",
+      "deep"
+    ],
+    "length": "medium",
+    "spice": 2
+  },
+  {
+    "id": "st_0014",
+    "text": "If thoughts were visible, silence would be loud.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0015",
+    "text": "Your habits are votes for the person you're becoming.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "medium",
+    "spice": 3
+  },
+  {
+    "id": "st_0016",
+    "text": "WiFi is the closest thing we have to invisible magic.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0017",
+    "text": "Every routine started as a decision.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0018",
+    "text": "Sleep is the daily system reboot.",
+    "category": [
+      "tech",
+      "life"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0019",
+    "text": "The present moment is the only loading screen that matters.",
+    "category": [
+      "existential",
+      "tech"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "medium",
+    "spice": 3
+  },
+  {
+    "id": "st_0020",
+    "text": "You never step into the same mindset twice.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0021",
+    "text": "Adulting is just debugging your own habits.",
+    "category": [
+      "tech",
+      "life"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0022",
+    "text": "Your reflection has better lighting than your reality.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0023",
+    "text": "Ambition is caffeine for the soul.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "chaos",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0024",
+    "text": "The brain auto-fills worst-case scenarios like predictive text.",
+    "category": [
+      "tech",
+      "meta"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "medium",
+    "spice": 4
+  },
+  {
+    "id": "st_0025",
+    "text": "Fresh starts usually smell like soap and optimism.",
+    "category": [
+      "life",
+      "existential"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  }
+]
