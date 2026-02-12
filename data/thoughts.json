@@ -1,58 +1,71 @@
 [
   {
     "id": "st_0001",
-    "text": "If water had flavor, hydration would win every argument.",
+    "text": "A routine is just energy in disguise.",
     "category": [
-      "life"
+      "funny",
+      "meta"
     ],
     "vibe": [
-      "calm"
+      "chaos"
     ],
     "length": "short",
     "spice": 1
   },
   {
     "id": "st_0002",
-    "text": "Your inner voice has never heard itself out loud.",
+    "text": "The brain treats a text message like a life crisis.",
     "category": [
       "meta"
     ],
     "vibe": [
-      "deep"
+      "chaos"
     ],
     "length": "short",
     "spice": 2
   },
   {
     "id": "st_0003",
-    "text": "Every mirror is a live broadcast of your current storyline.",
+    "text": "Money is just a scoreboard for invisible effort.",
     "category": [
       "meta",
       "life"
     ],
     "vibe": [
-      "deep"
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0004",
+    "text": "Your future self probably laughs at your unfinished goals.",
+    "category": [
+      "funny",
+      "life"
+    ],
+    "vibe": [
+      "chaos"
     ],
     "length": "short",
     "spice": 2
   },
   {
-    "id": "st_0004",
-    "text": "We measure success in numbers but feel it in silence.",
+    "id": "st_0005",
+    "text": "If motivation had a software update, it would fix late-night scrolling.",
     "category": [
-      "existential",
-      "life"
+      "meta"
     ],
     "vibe": [
-      "deep",
-      "calm"
+      "chaos"
     ],
     "length": "short",
-    "spice": 3
+    "spice": 2
   },
   {
-    "id": "st_0005",
-    "text": "Your future self is watching you like a documentary.",
+    "id": "st_0006",
+    "text": "If confidence had a software update, it would fix decision fatigue.",
     "category": [
       "existential"
     ],
@@ -60,26 +73,326 @@
       "deep"
     ],
     "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0007",
+    "text": "Sometimes excitement is just adrenaline with branding.",
+    "category": [
+      "tech",
+      "life"
+    ],
+    "vibe": [
+      "silly",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0008",
+    "text": "Your future self probably laughs at your late-night doubts.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
     "spice": 3
   },
   {
-    "id": "st_0006",
-    "text": "Notifications are just tiny digital doorbells for your attention.",
+    "id": "st_0009",
+    "text": "Your patience doesn't care about your fear.",
     "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0010",
+    "text": "Productivity is just energy in disguise.",
+    "category": [
+      "existential",
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0011",
+    "text": "Your discipline doesn't care about your excuses.",
+    "category": [
+      "life",
+      "existential"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0012",
+    "text": "A routine is just organized chaos.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0013",
+    "text": "Sometimes motivation is just chemistry doing pushups.",
+    "category": [
+      "existential",
       "tech"
     ],
     "vibe": [
       "chaos"
     ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0014",
+    "text": "If attention span had a software update, it would fix late-night scrolling.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
     "length": "medium",
+    "spice": 2
+  },
+  {
+    "id": "st_0015",
+    "text": "A routine is just energy in disguise.",
+    "category": [
+      "tech",
+      "funny"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0016",
+    "text": "A routine is just a scoreboard for invisible effort.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly",
+      "deep"
+    ],
+    "length": "short",
     "spice": 3
   },
   {
-    "id": "st_0007",
-    "text": "If procrastination burned calories, we'd all be shredded.",
+    "id": "st_0017",
+    "text": "Your future self probably laughs at your unfinished goals.",
     "category": [
       "funny",
+      "meta"
+    ],
+    "vibe": [
+      "chaos",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0018",
+    "text": "If sleep schedule had a software update, it would fix overthinking.",
+    "category": [
+      "tech",
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0019",
+    "text": "Sometimes anxiety is just adrenaline with branding.",
+    "category": [
+      "existential",
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0020",
+    "text": "Sometimes confidence is just caffeine without coffee.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0021",
+    "text": "The brain treats a tiny mistake like a life crisis.",
+    "category": [
       "life"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0022",
+    "text": "If you could see your your mood, it would look like static on a screen.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0023",
+    "text": "Your discipline doesn't care about your ego.",
+    "category": [
+      "tech",
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0024",
+    "text": "If sleep schedule had a software update, it would fix decision fatigue.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0025",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0026",
+    "text": "The brain treats a typo like a public scandal.",
+    "category": [
+      "existential",
+      "funny"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0027",
+    "text": "Your future self probably laughs at your random worries.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "deep",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0028",
+    "text": "A routine is just organized chaos.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0029",
+    "text": "Creativity is just a scoreboard for invisible effort.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0030",
+    "text": "The brain treats a text message like a documentary series.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0031",
+    "text": "Sometimes motivation is just chemistry doing pushups.",
+    "category": [
+      "life",
+      "meta"
     ],
     "vibe": [
       "silly"
@@ -88,22 +401,24 @@
     "spice": 2
   },
   {
-    "id": "st_0008",
-    "text": "The brain can simulate embarrassment without any witnesses.",
+    "id": "st_0032",
+    "text": "Your motivation doesn't care about your mood.",
     "category": [
-      "meta"
+      "life",
+      "tech"
     ],
     "vibe": [
-      "deep"
+      "calm",
+      "silly"
     ],
-    "length": "medium",
-    "spice": 4
+    "length": "short",
+    "spice": 2
   },
   {
-    "id": "st_0009",
-    "text": "A playlist is just a mood you organized.",
+    "id": "st_0033",
+    "text": "Your future self probably laughs at your random worries.",
     "category": [
-      "life"
+      "funny"
     ],
     "vibe": [
       "calm"
@@ -112,9 +427,1549 @@
     "spice": 1
   },
   {
-    "id": "st_0010",
-    "text": "Time doesn't fly. It just refuses to wait.",
+    "id": "st_0034",
+    "text": "The brain treats a tiny mistake like a documentary series.",
     "category": [
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0035",
+    "text": "Your discipline doesn't care about your excuses.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0036",
+    "text": "If you could see your your excuses, it would look like neon fog.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0037",
+    "text": "Every discipline started as a random Tuesday choice.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0038",
+    "text": "Your discipline doesn't care about your comfort zone.",
+    "category": [
+      "funny",
+      "life"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0039",
+    "text": "Your future self probably laughs at your late-night doubts.",
+    "category": [
+      "existential",
+      "meta"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0040",
+    "text": "Social media is basically a messenger pigeon with WiFi.",
+    "category": [
+      "tech",
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0041",
+    "text": "Streaming is basically a messenger pigeon with WiFi.",
+    "category": [
+      "life",
+      "funny"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0042",
+    "text": "A routine is just organized chaos.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0043",
+    "text": "Sometimes excitement is just a survival instinct misfiring.",
+    "category": [
+      "funny",
+      "tech"
+    ],
+    "vibe": [
+      "chaos",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0044",
+    "text": "A routine is just a scoreboard for invisible effort.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "chaos",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0045",
+    "text": "Sometimes burnout is just a survival instinct misfiring.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0046",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0047",
+    "text": "If confidence had a software update, it would fix procrastination.",
+    "category": [
+      "meta",
+      "life"
+    ],
+    "vibe": [
+      "deep",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0048",
+    "text": "Creativity is just organized chaos.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0049",
+    "text": "Sometimes confidence is just caffeine without coffee.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0050",
+    "text": "If sleep schedule had a software update, it would fix overthinking.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0051",
+    "text": "Social media is basically a bonfire story circle with WiFi.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0052",
+    "text": "Cloud storage is basically a town square with WiFi.",
+    "category": [
+      "existential",
+      "funny"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0053",
+    "text": "The brain treats a tiny mistake like the end of civilization.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0054",
+    "text": "Sometimes anxiety is just chemistry doing pushups.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0055",
+    "text": "Sometimes confidence is just caffeine without coffee.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0056",
+    "text": "Streaming is basically a messenger pigeon with WiFi.",
+    "category": [
+      "funny",
+      "life"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0057",
+    "text": "Your attention span doesn't care about your ego.",
+    "category": [
+      "life",
+      "funny"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0058",
+    "text": "Social media is basically a town square with WiFi.",
+    "category": [
+      "tech",
+      "life"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0059",
+    "text": "Your confidence doesn't care about your mood.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0060",
+    "text": "If you could see your your excuses, it would look like a loading bar.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0061",
+    "text": "Streaming is basically a town square with WiFi.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0062",
+    "text": "Cloud storage is basically a marketplace rumor with WiFi.",
+    "category": [
+      "tech",
+      "existential"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0063",
+    "text": "Creativity is just a scoreboard for invisible effort.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0064",
+    "text": "Social media is basically a messenger pigeon with WiFi.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0065",
+    "text": "Smartphone is basically a bonfire story circle with WiFi.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0066",
+    "text": "Sometimes excitement is just caffeine without coffee.",
+    "category": [
+      "life",
+      "tech"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0067",
+    "text": "If you could see your your mood, it would look like a tangled wire.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0068",
+    "text": "A routine is just a scoreboard for invisible effort.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "chaos",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0069",
+    "text": "Your future self probably laughs at your late-night doubts.",
+    "category": [
+      "life",
+      "funny"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0070",
+    "text": "Your future self probably laughs at your unfinished goals.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0071",
+    "text": "Smartphone is basically a messenger pigeon with WiFi.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0072",
+    "text": "If you could see your your fear, it would look like neon fog.",
+    "category": [
+      "life",
+      "funny"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0073",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0074",
+    "text": "Every curiosity started as one boring decision.",
+    "category": [
+      "meta",
+      "tech"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0075",
+    "text": "If you could see your your excuses, it would look like a tangled wire.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0076",
+    "text": "The brain treats a tiny mistake like a documentary series.",
+    "category": [
+      "life",
+      "existential"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0077",
+    "text": "Your future self probably laughs at your late-night doubts.",
+    "category": [
+      "funny",
+      "tech"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0078",
+    "text": "A routine is just a loop you keep replaying.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0079",
+    "text": "Your discipline doesn't care about your fear.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0080",
+    "text": "Success is just a loop you keep replaying.",
+    "category": [
+      "tech",
+      "funny"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0081",
+    "text": "If memory had a software update, it would fix overthinking.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0082",
+    "text": "Your future self probably laughs at your random worries.",
+    "category": [
+      "tech",
+      "funny"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0083",
+    "text": "Your memory doesn't care about your ego.",
+    "category": [
+      "life",
+      "tech"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0084",
+    "text": "Sometimes burnout is just adrenaline with branding.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0085",
+    "text": "Your discipline doesn't care about your mood.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0086",
+    "text": "Your future self probably laughs at your late-night doubts.",
+    "category": [
+      "funny",
+      "life"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0087",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0088",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "calm",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0089",
+    "text": "If discipline had a software update, it would fix decision fatigue.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "chaos",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0090",
+    "text": "Your future self probably laughs at your scrolling habits.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "calm",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0091",
+    "text": "Social media is basically a bonfire story circle with WiFi.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0092",
+    "text": "The brain treats a text message like the end of civilization.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0093",
+    "text": "Smartphone is basically a town square with WiFi.",
+    "category": [
+      "life",
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0094",
+    "text": "Your motivation doesn't care about your excuses.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0095",
+    "text": "Your attention span doesn't care about your fear.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0096",
+    "text": "Streaming is basically a bonfire story circle with WiFi.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0097",
+    "text": "Streaming is basically a town square with WiFi.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0098",
+    "text": "Time is just a loop you keep replaying.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0099",
+    "text": "The brain treats a text message like a life crisis.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0100",
+    "text": "A routine is just energy in disguise.",
+    "category": [
+      "funny",
+      "life"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0101",
+    "text": "The brain treats a text message like a life crisis.",
+    "category": [
+      "life",
+      "existential"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0102",
+    "text": "A routine is just energy in disguise.",
+    "category": [
+      "life",
+      "existential"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0103",
+    "text": "If you could see your your ego, it would look like neon fog.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0104",
+    "text": "If patience had a software update, it would fix overthinking.",
+    "category": [
+      "existential",
+      "tech"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0105",
+    "text": "If you could see your your excuses, it would look like glitching subtitles.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "medium",
+    "spice": 4
+  },
+  {
+    "id": "st_0106",
+    "text": "A routine is just a scoreboard for invisible effort.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0107",
+    "text": "Every consistency started as a moment of clarity.",
+    "category": [
+      "tech",
+      "existential"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0108",
+    "text": "Social media is basically a bonfire story circle with WiFi.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0109",
+    "text": "Sometimes burnout is just caffeine without coffee.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0110",
+    "text": "The brain treats a text message like the end of civilization.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0111",
+    "text": "Your attention span doesn't care about your excuses.",
+    "category": [
+      "tech"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0112",
+    "text": "If confidence had a software update, it would fix decision fatigue.",
+    "category": [
+      "existential",
+      "meta"
+    ],
+    "vibe": [
+      "silly",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0113",
+    "text": "Every discipline started as a moment of clarity.",
+    "category": [
+      "meta",
+      "life"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0114",
+    "text": "If you could see your your fear, it would look like a loading bar.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0115",
+    "text": "If patience had a software update, it would fix decision fatigue.",
+    "category": [
+      "meta",
+      "tech"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0116",
+    "text": "Your future self probably laughs at your random worries.",
+    "category": [
+      "funny",
+      "existential"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0117",
+    "text": "If motivation had a software update, it would fix late-night scrolling.",
+    "category": [
+      "funny",
+      "meta"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0118",
+    "text": "Sometimes motivation is just adrenaline with branding.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "calm",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0119",
+    "text": "Smartphone is basically a town square with WiFi.",
+    "category": [
+      "existential",
+      "funny"
+    ],
+    "vibe": [
+      "chaos",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0120",
+    "text": "Your future self probably laughs at your scrolling habits.",
+    "category": [
+      "life",
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0121",
+    "text": "If motivation had a software update, it would fix decision fatigue.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0122",
+    "text": "Ambition is just organized chaos.",
+    "category": [
+      "existential",
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0123",
+    "text": "The brain treats a typo like a public scandal.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0124",
+    "text": "Your future self probably laughs at your unfinished goals.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0125",
+    "text": "If sleep schedule had a software update, it would fix late-night scrolling.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "calm",
+      "silly"
+    ],
+    "length": "medium",
+    "spice": 4
+  },
+  {
+    "id": "st_0126",
+    "text": "Failure is just a subscription to responsibility.",
+    "category": [
+      "tech",
+      "funny"
+    ],
+    "vibe": [
+      "deep",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0127",
+    "text": "A routine is just energy in disguise.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0128",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0129",
+    "text": "Your future self probably laughs at your scrolling habits.",
+    "category": [
+      "life",
+      "meta"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0130",
+    "text": "Your sleep schedule doesn't care about your mood.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "chaos",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0131",
+    "text": "If confidence had a software update, it would fix decision fatigue.",
+    "category": [
+      "meta",
+      "funny"
+    ],
+    "vibe": [
+      "calm",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0132",
+    "text": "Your patience doesn't care about your mood.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0133",
+    "text": "If discipline had a software update, it would fix decision fatigue.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "calm",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0134",
+    "text": "Smartphone is basically a bonfire story circle with WiFi.",
+    "category": [
+      "tech",
+      "existential"
+    ],
+    "vibe": [
+      "calm",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0135",
+    "text": "If attention span had a software update, it would fix self-doubt.",
+    "category": [
+      "existential",
+      "life"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0136",
+    "text": "Every focus started as a moment of clarity.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0137",
+    "text": "The brain treats a delayed reply like a public scandal.",
+    "category": [
+      "tech",
+      "life"
+    ],
+    "vibe": [
+      "chaos",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0138",
+    "text": "The brain treats a text message like a documentary series.",
+    "category": [
+      "life",
+      "funny"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0139",
+    "text": "A routine is just a loop you keep replaying.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "silly",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0140",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0141",
+    "text": "Sometimes anxiety is just chemistry doing pushups.",
+    "category": [
+      "existential",
+      "tech"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0142",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0143",
+    "text": "A routine is just a loop you keep replaying.",
+    "category": [
+      "funny",
+      "tech"
+    ],
+    "vibe": [
+      "chaos",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0144",
+    "text": "Your patience doesn't care about your mood.",
+    "category": [
+      "tech",
+      "existential"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0145",
+    "text": "Your future self probably laughs at your late-night doubts.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0146",
+    "text": "Creativity is just organized chaos.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0147",
+    "text": "Sometimes motivation is just caffeine without coffee.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "chaos",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0148",
+    "text": "A routine is just a loop you keep replaying.",
+    "category": [
+      "funny",
+      "tech"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0149",
+    "text": "If you could see your your comfort zone, it would look like a tangled wire.",
+    "category": [
+      "life",
+      "meta"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "medium",
+    "spice": 3
+  },
+  {
+    "id": "st_0150",
+    "text": "If confidence had a software update, it would fix decision fatigue.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0151",
+    "text": "Sometimes burnout is just adrenaline with branding.",
+    "category": [
+      "life",
+      "funny"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0152",
+    "text": "If discipline had a software update, it would fix overthinking.",
+    "category": [
+      "funny",
       "existential"
     ],
     "vibe": [
@@ -124,20 +1979,75 @@
     "spice": 3
   },
   {
-    "id": "st_0011",
-    "text": "Confidence is memory edited for courage.",
+    "id": "st_0153",
+    "text": "Every discipline started as a small promise kept.",
     "category": [
-      "life"
+      "tech"
     ],
     "vibe": [
-      "deep"
+      "deep",
+      "silly"
     ],
     "length": "short",
     "spice": 3
   },
   {
-    "id": "st_0012",
-    "text": "Even GPS says recalculating without shame.",
+    "id": "st_0154",
+    "text": "Every curiosity started as a small promise kept.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "calm",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0155",
+    "text": "If you could see your your mood, it would look like glitching subtitles.",
+    "category": [
+      "tech",
+      "life"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0156",
+    "text": "If you could see your your excuses, it would look like a tangled wire.",
+    "category": [
+      "existential",
+      "meta"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0157",
+    "text": "If you could see your your ego, it would look like a tangled wire.",
+    "category": [
+      "life",
+      "meta"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0158",
+    "text": "Your confidence doesn't care about your ego.",
     "category": [
       "tech",
       "funny"
@@ -149,122 +2059,151 @@
     "spice": 2
   },
   {
-    "id": "st_0013",
-    "text": "The shower is a brainstorming chamber with steam effects.",
+    "id": "st_0159",
+    "text": "Your future self probably laughs at your late-night doubts.",
     "category": [
-      "meta"
+      "meta",
+      "tech"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0160",
+    "text": "The brain treats a tiny mistake like a life crisis.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0161",
+    "text": "Productivity is just a scoreboard for invisible effort.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "deep",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0162",
+    "text": "If attention span had a software update, it would fix self-doubt.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "chaos",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0163",
+    "text": "If attention span had a software update, it would fix late-night scrolling.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "medium",
+    "spice": 4
+  },
+  {
+    "id": "st_0164",
+    "text": "Cloud storage is basically a marketplace rumor with WiFi.",
+    "category": [
+      "meta",
+      "funny"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0165",
+    "text": "A routine is just energy in disguise.",
+    "category": [
+      "funny",
+      "life"
+    ],
+    "vibe": [
+      "silly",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0166",
+    "text": "Sometimes burnout is just caffeine without coffee.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0167",
+    "text": "If you could see your your fear, it would look like static on a screen.",
+    "category": [
+      "funny"
     ],
     "vibe": [
       "calm",
       "deep"
     ],
-    "length": "medium",
-    "spice": 2
-  },
-  {
-    "id": "st_0014",
-    "text": "If thoughts were visible, silence would be loud.",
-    "category": [
-      "existential"
-    ],
-    "vibe": [
-      "deep"
-    ],
-    "length": "short",
-    "spice": 4
-  },
-  {
-    "id": "st_0015",
-    "text": "Your habits are votes for the person you're becoming.",
-    "category": [
-      "life"
-    ],
-    "vibe": [
-      "deep"
-    ],
-    "length": "medium",
-    "spice": 3
-  },
-  {
-    "id": "st_0016",
-    "text": "WiFi is the closest thing we have to invisible magic.",
-    "category": [
-      "tech"
-    ],
-    "vibe": [
-      "calm"
-    ],
     "length": "short",
     "spice": 1
   },
   {
-    "id": "st_0017",
-    "text": "Every routine started as a decision.",
-    "category": [
-      "life"
-    ],
-    "vibe": [
-      "calm"
-    ],
-    "length": "short",
-    "spice": 1
-  },
-  {
-    "id": "st_0018",
-    "text": "Sleep is the daily system reboot.",
-    "category": [
-      "tech",
-      "life"
-    ],
-    "vibe": [
-      "calm"
-    ],
-    "length": "short",
-    "spice": 1
-  },
-  {
-    "id": "st_0019",
-    "text": "The present moment is the only loading screen that matters.",
-    "category": [
-      "existential",
-      "tech"
-    ],
-    "vibe": [
-      "deep"
-    ],
-    "length": "medium",
-    "spice": 3
-  },
-  {
-    "id": "st_0020",
-    "text": "You never step into the same mindset twice.",
-    "category": [
-      "existential"
-    ],
-    "vibe": [
-      "deep"
-    ],
-    "length": "short",
-    "spice": 2
-  },
-  {
-    "id": "st_0021",
-    "text": "Adulting is just debugging your own habits.",
-    "category": [
-      "tech",
-      "life"
-    ],
-    "vibe": [
-      "silly"
-    ],
-    "length": "short",
-    "spice": 2
-  },
-  {
-    "id": "st_0022",
-    "text": "Your reflection has better lighting than your reality.",
+    "id": "st_0168",
+    "text": "The brain treats a delayed reply like the end of civilization.",
     "category": [
       "funny",
+      "existential"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0169",
+    "text": "Money is just a subscription to responsibility.",
+    "category": [
+      "life",
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0170",
+    "text": "Creativity is just a scoreboard for invisible effort.",
+    "category": [
       "meta"
     ],
     "vibe": [
@@ -274,34 +2213,57 @@
     "spice": 2
   },
   {
-    "id": "st_0023",
-    "text": "Ambition is caffeine for the soul.",
+    "id": "st_0171",
+    "text": "Your future self probably laughs at your late-night doubts.",
     "category": [
       "life"
     ],
     "vibe": [
-      "chaos",
-      "deep"
+      "silly"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0172",
+    "text": "The brain treats a delayed reply like a documentary series.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "calm",
+      "silly"
     ],
     "length": "short",
     "spice": 3
   },
   {
-    "id": "st_0024",
-    "text": "The brain auto-fills worst-case scenarios like predictive text.",
+    "id": "st_0173",
+    "text": "Sometimes burnout is just a survival instinct misfiring.",
     "category": [
-      "tech",
+      "funny"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0174",
+    "text": "A routine is just a subscription to responsibility.",
+    "category": [
       "meta"
     ],
     "vibe": [
-      "chaos"
+      "deep"
     ],
-    "length": "medium",
-    "spice": 4
+    "length": "short",
+    "spice": 2
   },
   {
-    "id": "st_0025",
-    "text": "Fresh starts usually smell like soap and optimism.",
+    "id": "st_0175",
+    "text": "The brain treats a delayed reply like a public scandal.",
     "category": [
       "life",
       "existential"
@@ -310,6 +2272,333 @@
       "calm"
     ],
     "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0176",
+    "text": "Sometimes confidence is just adrenaline with branding.",
+    "category": [
+      "tech",
+      "funny"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0177",
+    "text": "Money is just energy in disguise.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0178",
+    "text": "Your memory doesn't care about your ego.",
+    "category": [
+      "existential",
+      "funny"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0179",
+    "text": "Success is just a loop you keep replaying.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "silly",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0180",
+    "text": "The brain treats a tiny mistake like a public scandal.",
+    "category": [
+      "life",
+      "meta"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0181",
+    "text": "Streaming is basically a town square with WiFi.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0182",
+    "text": "A routine is just a scoreboard for invisible effort.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
     "spice": 2
+  },
+  {
+    "id": "st_0183",
+    "text": "The brain treats a tiny mistake like a life crisis.",
+    "category": [
+      "funny",
+      "life"
+    ],
+    "vibe": [
+      "silly",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0184",
+    "text": "Every focus started as a random Tuesday choice.",
+    "category": [
+      "meta",
+      "existential"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0185",
+    "text": "Your sleep schedule doesn't care about your ego.",
+    "category": [
+      "tech",
+      "meta"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0186",
+    "text": "A routine is just a loop you keep replaying.",
+    "category": [
+      "funny",
+      "tech"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0187",
+    "text": "Your attention span doesn't care about your ego.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "calm",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0188",
+    "text": "The brain treats a tiny mistake like a documentary series.",
+    "category": [
+      "funny",
+      "existential"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0189",
+    "text": "Smartphone is basically a town square with WiFi.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0190",
+    "text": "Sometimes excitement is just chemistry doing pushups.",
+    "category": [
+      "funny"
+    ],
+    "vibe": [
+      "silly",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0191",
+    "text": "Sometimes confidence is just a survival instinct misfiring.",
+    "category": [
+      "existential",
+      "meta"
+    ],
+    "vibe": [
+      "silly"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0192",
+    "text": "Failure is just energy in disguise.",
+    "category": [
+      "meta"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0193",
+    "text": "Your memory doesn't care about your ego.",
+    "category": [
+      "existential",
+      "tech"
+    ],
+    "vibe": [
+      "silly",
+      "deep"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0194",
+    "text": "Time is just energy in disguise.",
+    "category": [
+      "tech",
+      "existential"
+    ],
+    "vibe": [
+      "calm",
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 2
+  },
+  {
+    "id": "st_0195",
+    "text": "If motivation had a software update, it would fix procrastination.",
+    "category": [
+      "tech",
+      "existential"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 4
+  },
+  {
+    "id": "st_0196",
+    "text": "Every consistency started as a random Tuesday choice.",
+    "category": [
+      "life"
+    ],
+    "vibe": [
+      "deep"
+    ],
+    "length": "short",
+    "spice": 5
+  },
+  {
+    "id": "st_0197",
+    "text": "If you could see your your mood, it would look like a tangled wire.",
+    "category": [
+      "life",
+      "tech"
+    ],
+    "vibe": [
+      "deep",
+      "calm"
+    ],
+    "length": "short",
+    "spice": 3
+  },
+  {
+    "id": "st_0198",
+    "text": "The brain treats a text message like a life crisis.",
+    "category": [
+      "tech",
+      "existential"
+    ],
+    "vibe": [
+      "chaos",
+      "silly"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0199",
+    "text": "Sometimes motivation is just a survival instinct misfiring.",
+    "category": [
+      "existential"
+    ],
+    "vibe": [
+      "chaos"
+    ],
+    "length": "short",
+    "spice": 1
+  },
+  {
+    "id": "st_0200",
+    "text": "A routine is just a loop you keep replaying.",
+    "category": [
+      "meta",
+      "funny"
+    ],
+    "vibe": [
+      "calm"
+    ],
+    "length": "short",
+    "spice": 4
   }
 ]
