@@ -5,6 +5,8 @@ import { setTheme, renderCategories, renderVibes, renderThought, renderSaved, sp
 
 const $ = (id) => document.getElementById(id);
 
+const ua = navigator.userAgent || "";
+const isInApp = ua.includes("Instagram") || ua.includes("FBAN") || ua.includes("FBAV");
 const prefersReducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const floatersEmoji = ["🚿","🫧","💡","🧠","🧬","✨","🌈","🪞","🤖","⚡","🧪","🌪️","🌙","🔥","🌀"];
@@ -13,7 +15,7 @@ function rand(min, max){ return Math.random() * (max - min) + min; }
 function pick(arr){ return arr[Math.floor(Math.random() * arr.length)]; }
 
 function spawnFloater() {
-  if (prefersReducedMotion) return;
+  if (prefersReducedMotion || isInApp) return;
   const host = $("floaters");
   if (!host) return;
   const el = document.createElement("span");
@@ -48,7 +50,8 @@ function shufflePalette() {
 async function main(){
   let state = loadState();
   setTheme(state.theme);
-  document.documentElement.dataset.reduceMotion = prefersReducedMotion ? "true" : "false";
+  document.documentElement.dataset.reduceMotion = (prefersReducedMotion || isInApp) ? "true" : "false";
+  document.documentElement.dataset.inapp = isInApp ? "true" : "false";
 
   // UI refs
   const categoryPills = $("categoryPills");
@@ -91,7 +94,7 @@ async function main(){
 
   // Floater loop
   shufflePalette();
-  setInterval(spawnFloater, prefersReducedMotion ? 2400 : 650);
+  setInterval(spawnFloater, (prefersReducedMotion || isInApp) ? 2400 : 650);
 
   // Thought state
   let current = null;
