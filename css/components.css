@@ -364,13 +364,15 @@ input[type="range"]{
 
 .btn--primary:hover{ box-shadow: var(--glow), 0 0 0 1px rgba(255,255,255,0.10) inset; }
 
-
-/* In-app browser (Instagram/Facebook) stability mode */
+/* In-app browser stability mode (Instagram/Facebook WebView) */
+[data-inapp="true"] .thought::after{
+  /* heavy blur + blend + animation can flicker in WebView */
+  animation: none !important;
+  filter: none !important;
+  mix-blend-mode: normal !important;
+  opacity: 0.45 !important;
+}
 [data-inapp="true"] .hero::before{
   filter: none !important;
-  opacity: 0.35 !important;
-}
-[data-inapp="true"] .thought::after{
-  filter: none !important;
-  opacity: 0.45 !important;
+  mix-blend-mode: normal !important;
 }
