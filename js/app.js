@@ -176,13 +176,17 @@ async function main(){
     saveState(state);
   });
 
- btnShuffle.addEventListener("click", () => {
+btnShuffle.addEventListener("click", () => {
+  // ✅ BONUS: quick “flash” effect (CSS class)
+  document.body.classList.add("shuffle-flash");
+  setTimeout(() => document.body.classList.remove("shuffle-flash"), 250);
+
   // --- VISUAL SHUFFLE ---
   shufflePalette();
-  for (let i=0;i<6;i++) setTimeout(spawnFloater, i*70);
+  for (let i = 0; i < 6; i++) setTimeout(spawnFloater, i * 70);
 
-  // --- FILTER SHUFFLE ---
-  const rand = arr => arr[Math.floor(Math.random()*arr.length)];
+  // --- FILTER SHUFFLE (category + vibe + spice) ---
+  const rand = (arr) => arr[Math.floor(Math.random() * arr.length)];
 
   const categoryKeys = ["any","funny","life","existential","tech","meta"];
   const vibeKeys = ["any","calm","deep","silly","chaos"];
@@ -191,17 +195,18 @@ async function main(){
     ...state,
     categoryKey: rand(categoryKeys),
     vibeKey: rand(vibeKeys),
-    spiceLevel: Math.floor(Math.random()*5)+1
+    spiceLevel: Math.floor(Math.random() * 5) + 1,
   };
 
   saveState(state);
 
-  // update UI selectors
+  // update pills/tabs/slider label to match new randomized state
   rerenderSelectors();
 
-  // generate new thought with new filters
+  // generate a new thought using the new randomized filters
   generate();
 });
+
 
 
   btnClearSaved.addEventListener("click", () => {
