@@ -5,9 +5,15 @@ import { setTheme, renderCategories, renderVibes, renderThought, renderSaved, sp
 
 const $ = (id) => document.getElementById(id);
 
+// Detect Instagram/Facebook in-app browser (WebView) — can cause flicker with heavy blur/FX
 const ua = navigator.userAgent || "";
-const isInApp = ua.includes("Instagram") || ua.includes("FBAN") || ua.includes("FBAV");
-const prefersReducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+const isInAppBrowser = ua.includes("Instagram") || ua.includes("FBAN") || ua.includes("FBAV");
+if (isInAppBrowser) {
+  document.documentElement.dataset.inapp = "true";
+}
+
+
+const prefersReducedMotion = (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) || isInAppBrowser;
 
 const floatersEmoji = ["🚿","🫧","💡","🧠","🧬","✨","🌈","🪞","🤖","⚡","🧪","🌪️","🌙","🔥","🌀"];
 
@@ -15,7 +21,7 @@ function rand(min, max){ return Math.random() * (max - min) + min; }
 function pick(arr){ return arr[Math.floor(Math.random() * arr.length)]; }
 
 function spawnFloater() {
-  if (prefersReducedMotion || isInApp) return;
+  if (prefersReducedMotion) return;
   const host = $("floaters");
   if (!host) return;
   const el = document.createElement("span");
@@ -50,8 +56,7 @@ function shufflePalette() {
 async function main(){
   let state = loadState();
   setTheme(state.theme);
-  document.documentElement.dataset.reduceMotion = (prefersReducedMotion || isInApp) ? "true" : "false";
-  document.documentElement.dataset.inapp = isInApp ? "true" : "false";
+  document.documentElement.dataset.reduceMotion = prefersReducedMotion ? "true" : "false";
 
   // UI refs
   const categoryPills = $("categoryPills");
@@ -94,7 +99,7 @@ async function main(){
 
   // Floater loop
   shufflePalette();
-  setInterval(spawnFloater, (prefersReducedMotion || isInApp) ? 2400 : 650);
+  setInterval(spawnFloater, prefersReducedMotion ? 2400 : 650);
 
   // Thought state
   let current = null;
