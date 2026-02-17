@@ -100,3 +100,15 @@ strong{ font-weight:700; }
 @media (prefers-reduced-motion: reduce){
   *{ animation-duration: 0.001ms !important; animation-iteration-count: 1 !important; transition-duration: 0.001ms !important; scroll-behavior: auto !important; }
 }
+
+
+/* In-app browser (Instagram/Facebook) stability mode */
+[data-inapp="true"] .card{
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  /* slightly more opaque so it still feels premium without blur */
+  background: linear-gradient(180deg, rgba(12, 14, 24, 0.90), rgba(14, 18, 32, 0.84)) !important;
+}
+[data-theme="light"][data-inapp="true"] .card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.86)) !important;
+}
