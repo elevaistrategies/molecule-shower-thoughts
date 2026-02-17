@@ -135,12 +135,28 @@
   transition: transform .15s ease, border-color .15s ease, background .15s ease, box-shadow .15s ease;
   user-select:none;
 }
-.pill:hover{ transform: translateY(-1px); border-color: var(--stroke2); }
 .pill[aria-selected="true"]{
-  border-color: rgba(255,255,255,0.26);
-  background: linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.04));
-  box-shadow: var(--glow);
+  border-color: var(--a2);
+  background: linear-gradient(
+    180deg,
+    rgba(6,182,212,0.16),
+    rgba(255,255,255,0.05)
+  );
+  box-shadow:
+    0 0 0 1px rgba(6,182,212,0.35),
+    0 0 26px rgba(6,182,212,0.22),
+    var(--glow);
+  transform: translateY(-1px);
 }
+
+/* Make the dot “confirm” the selection */
+.pill[aria-selected="true"] .pill__dot{
+  background: var(--a2);
+  box-shadow:
+    0 0 0 2px rgba(6,182,212,0.22),
+    0 0 18px rgba(6,182,212,0.55);
+}
+
 .pill__dot{
   width:10px; height:10px;
   border-radius: 999px;
@@ -164,10 +180,29 @@
 }
 .seg:hover{ transform: translateY(-1px); border-color: var(--stroke2); }
 .seg[aria-selected="true"]{
-  background: linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.04));
-  border-color: rgba(255,255,255,0.26);
-  box-shadow: var(--glow);
+  border-color: var(--a1);
+  background: linear-gradient(
+    180deg,
+    rgba(124,58,237,0.18),
+    rgba(255,255,255,0.05)
+  );
+  box-shadow:
+    0 0 0 1px rgba(124,58,237,0.35),
+    0 0 26px rgba(124,58,237,0.22),
+    var(--glow);
+  transform: translateY(-1px);
 }
+
+/* KEYBOARD FOCUS GLOW */
+.pill:focus-visible,
+.seg:focus-visible{
+  outline: none;
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.18),
+    0 0 22px rgba(255,255,255,0.12),
+    var(--glow);
+}
+
 
 .slider{
   display:flex;
