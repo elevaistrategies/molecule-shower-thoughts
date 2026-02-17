@@ -138,3 +138,13 @@
 [data-reduce-motion="true"] .core{ animation: none !important; opacity: 0.75; }
 [data-reduce-motion="true"] .thought::after{ animation: none !important; opacity: 0.55; }
 [data-reduce-motion="true"] .floater{ display:none !important; }
+
+/* In-app browser (Instagram/Facebook) stability mode */
+[data-inapp="true"] .fx__orbs{ display:none !important; }
+[data-inapp="true"] .fx__reactor{ display:none !important; }
+[data-inapp="true"] .fx__grid{
+  transform:none !important;
+  filter:none !important;
+  opacity: 0.06 !important;
+}
+[data-inapp="true"] .fx__floaters{ display:none !important; }
