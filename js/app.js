@@ -176,10 +176,33 @@ async function main(){
     saveState(state);
   });
 
-  btnShuffle.addEventListener("click", () => {
-    shufflePalette();
-    for (let i=0;i<6;i++) setTimeout(spawnFloater, i*70);
-  });
+ btnShuffle.addEventListener("click", () => {
+  // --- VISUAL SHUFFLE ---
+  shufflePalette();
+  for (let i=0;i<6;i++) setTimeout(spawnFloater, i*70);
+
+  // --- FILTER SHUFFLE ---
+  const rand = arr => arr[Math.floor(Math.random()*arr.length)];
+
+  const categoryKeys = ["any","funny","life","existential","tech","meta"];
+  const vibeKeys = ["any","calm","deep","silly","chaos"];
+
+  state = {
+    ...state,
+    categoryKey: rand(categoryKeys),
+    vibeKey: rand(vibeKeys),
+    spiceLevel: Math.floor(Math.random()*5)+1
+  };
+
+  saveState(state);
+
+  // update UI selectors
+  rerenderSelectors();
+
+  // generate new thought with new filters
+  generate();
+});
+
 
   btnClearSaved.addEventListener("click", () => {
     state = clearSaved(state);
